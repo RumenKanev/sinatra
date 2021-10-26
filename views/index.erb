@@ -1,4 +1,12 @@
+<% if @name  %>
 <h1>My name is <%= @name %> </h1>
+<% end %>
+
+<form action="/named-cat">
+    <label  for="name"> Add text here:</label><br>
+    <input type="text" name="name" placeholder="Type your email" >
+    <input type="submit" value="Submit">
+</form>
 <div style='border: 3px dashed red'>
     <img src='http://placekitten.com/500/500'>
 </div>
