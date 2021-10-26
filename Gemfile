@@ -9,3 +9,5 @@ gem "sinatra"
 gem "sinatra-contrib"
 gem "rerun"
 gem 'webrick'
+gem "capybara"
+gem "selenium-webdriver"
